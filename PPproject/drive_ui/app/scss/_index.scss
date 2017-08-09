@@ -1,0 +1,30 @@
+.header{
+  height: 60px;
+  &_logo{
+    height: 100%;
+    .logo{
+      height: 100%;
+    }
+  }
+  &_user{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    .icon-user{
+      font-size: 55px;
+    }
+  }
+}
+
+.content{
+  .filter-top{
+
+  }
+  .list-category{
+    height: 100px;
+  }
+  .filter-bottom{
+
+  }
+}

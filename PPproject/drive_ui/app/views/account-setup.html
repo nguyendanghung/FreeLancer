@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,800" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
+  <link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <title>Drive</title>
+</head>
+<body>
+<div id="main">
+  <div class="login account-page">
+    <div class="header-logo-driver">
+      <a class="logo-driver" href=""><img src="../images/icon-logo.png" alt="logo"></a>
+    </div>
+    <div class="account-setup">
+      <div class="title-account-top">
+        <h1>Hammer down! You are almost ready to go.</h1>
+      </div>
+      <div class="form-account">
+        <div class="title-account">
+          <p><i class="fa fa-th-list" aria-hidden="true"></i>  Some final dtails before account is det up</p>
+        </div>
+        <div class="modal-body content-account">
+          <p>Add and confirm some information we need about your company. These details will help you and your drivers simplifi logging process.</p>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group form-modal-drive has-error-driver">
+                <label for="exampleInputEmail1">COMPANY NAME</label>
+                <!--<p class="validate-address-form">This is not a correct email address.</p>-->
+                <input type="email" class="form-control" placeholder="Zephyr Trucking LLC">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group form-modal-drive has-error-driver">
+                <label for="exampleInputEmail1">US DOT #</label>
+                <!--<p class="validate-address-form">This is not a correct email address.</p>-->
+                <input type="email" class="form-control" placeholder="1234567">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="form-group form-modal-drive has-error-driver">
+                <label for="exampleInputEmail1">STREET ADDRESS</label>
+                <!--<p class="validate-address-form">This is not a correct email address.</p>-->
+                <input type="email" class="form-control"  placeholder="201 E. Washington Street Suite 1302">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group form-modal-drive has-error-driver">
+                <label for="exampleInputEmail1">CITY</label>
+                <!--<p class="validate-address-form">This is not a correct email address.</p>-->
+                <input type="email" class="form-control" placeholder="lowa City">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group form-modal-drive has-error-driver">
+                <label for="exampleInputEmail1">ZIP/POSTAL CODE</label>
+                <!--<p class="validate-address-form">This is not a correct email address.</p>-->
+                <input type="email" class="form-control" placeholder="52240">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group form-modal-drive has-error-driver">
+              <label for="exampleInputEmail1">STATE</label>
+              <!--<p class="validate-address-form">This is not a correct email address.</p>-->
+              <select class="form-control">
+              <option>lowa</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              </select>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <div class="btn-account-setup">
+              <button type="button" href="" class="btn btn-add-driver">TAKE ME TO MY FLERT!<span><i class="fa fa-arrow-right" aria-hidden="true"></i></span></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </div>
+</div>
+</body>
+</html>
+<script type="text/javascript" src="../js/jquery-2.2.0.min.js"></script>
+<script type="text/javascript">
+  $('.list-menu-icon').click(function(){
+    $(".sidebar-drive").toggle();
+  });
+</script>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
+    <link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Drive</title>
+</head>
+<body>
+    <div id="main">
+      <div class="login">
+        <div class="header-logo-driver">
+          <a class="logo-driver" href=""><img src="../images/icon-logo.png" alt="logo"></a>
+          <ul class="nav-login">
+            <li><a href="">Sign In</a></li>
+            <li><a class="active" href="">Sign Up</a></li>
+          </ul>
+        </div>
+        <div class="form-login-drive">
+          <div>
+            <h1>LOGIN</h1>
+            <form>
+              <div class="form-group form-group-drive has-error">
+                <label for="exampleInputEmail1" class="email "> EMAIL</label>
+                <input type="email" class="form-control" id="exampleInputEmail1">
+                <i class="fa fa-envelope-o icon-email" aria-hidden="true"></i>
+              </div>
+              <div class="form-group form-group-drive has-error">
+                <label for="exampleInputPassword1" class="email">PASSWORD</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+                <i class="icon-lock icon-email" aria-hidden="true"></i>
+              </div>
+              <p class="has-error error-title">Sorry, your login email and password do not match. You may have mistyped something.</p>
+              <button type="submit" class="btn btn-default btn-continue">CONTINUE</button>
+              <a class="forget-password"> Forget Password?</a>
+              <p class="sign-in-free">Need an account? <a>Sign up for free!</a></p>
+            </form>
+          </div>
+        </div>
+        <p class="coppy-bottom">&copy; Digital Artefacts LLC 2017</p>
+      </div>
+    </div>
+</body>
+</html>
+<script type="text/javascript" src="../js/jquery-2.2.0.min.js"></script>
+<script type="text/javascript">
+    $('.list-menu-icon').click(function(){
+      $(".sidebar-drive").toggle();
+  });
+</script>

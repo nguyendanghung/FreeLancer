@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Drive</title>
+</head>
+
+<body>
+    <div id="main">
+        <div class="container-custom">
+            <div class="sidebar-drive">
+                <div class="logo-drive">
+                </div>
+                <div class="menu-sidebar">
+                    <ul>
+                        <li class="active"><a href=""><i class="fa fa-tachometer" aria-hidden="true"></i><span>Dasboard</span></a></li>
+                        <li><a href=""><i class="fa fa-list" aria-hidden="true"></i><span>Logs</span></a></li>
+                        <li><a href=""><i class="fa fa-tachometer" aria-hidden="true"></i><span>Drivers</span></a></li>
+                        <li><a href=""><i class="fa fa-tachometer" aria-hidden="true"></i><span>Vehicles</span></a></li>
+                        <li><a href=""><i class="fa fa-cog" aria-hidden="true"></i><span>Settings</span></a></li>
+                    </ul>
+                </div>
+                <div class="logo-footer-sidebar">
+                    <img src="../images/CompanyBanner.PNG" alt="logo">
+                </div>
+            </div>
+            <div class="content">
+                <div class="header">
+                    <div class="header-drive">
+                        <i class="list-menu-icon fa fa-bars" aria-hidden="true"></i>
+                        <ul>
+                            <li class="icon-bell"><a href=""><i class="fa fa-bell" aria-hidden="true"><span>10</span></i></a></li>
+                            <li class="icon-bell"><a href=""><i class="fa fa-envelope" aria-hidden="true"><span>1</span></i></a></li>
+                            <li class="img-avatar-icon"><img src="../images/bg@3x.jpg" alt="logo"><i class="fa fa-chevron-down" aria-hidden="true"></i></li>
+                        </ul>
+                    </div>
+                    <div class="title-drive-content">
+                        <div class="title-header-top">  
+                            <h2>DRIVERS</h2>
+                            <div>
+                                <a class="btn-add-drive" data-toggle="modal" data-target="#myModal" href=""><i class="fa fa-plus-circle" aria-hidden="true"></i><span>ADD DRIVER</span></a>
+                                <!-- <p>CLICK A DRIVER TO VIEW INFO</p> -->
+                            </div> 
+                            <a href="#"><i class="ion-ios7-arrow-thin-left" aria-hidden="true"></i><p>BACK TO ALL DRIVERS</p></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-drive-active">
+                    <ul class="tab-drive">
+                        <li class="active"><a href="">ALL</a></li>
+                        <li><a href="">ACTIVE</a></li>
+                        <li><a href="">INACTIVE</a></li>
+                        <li><a href="">REQUESTED</a></li>
+                    </ul>
+                    <div class="table-content-driver">
+                        <div class="table table-condensed table-driver" border="1" cellpadding="5" cellspacing="5">
+                            <div class="table-drive-child">
+                                <div class="tr-driver title-table-driver">
+                                    <div class="td-driver content-table-avatar"></div>
+                                    <div class="td-driver content-table-name">NAME</div>
+                                    <div class="td-driver content-table-name">STATUS</div>
+                                    <div class="td-driver td-driver-maps content-table-name">LAST LOCATION</div>
+                                    <div class="td-driver content-table-name">MILES TODAY</div>
+                                    <div class="td-driver td-hos-compliance content-table-name"><a href="">AEVENTS <i class="fa fa-sort-desc" aria-hidden="true"></i></a></div>
+                                </div>
+                            </div>
+                            <div class="table-drive-child table-drive-child-box">
+                                <div class="tr-driver content-table-driver ">
+                                    <div class="td-driver content-table-avatar">
+                                        <!-- <p class="name-avatar">EM</p> -->
+                                        <img src="../images/bg@3x.jpg" alt="logo"> 
+                                    </div>
+                                    <div class="td-driver content-table-name">
+                                        <div class="name-task">
+                                            <p class="name-title-avar">EVAN MAY</p>
+                                            <span>SAM671234</span>
+                                        </div>
+                                    </div>
+                                    <div class="td-driver content-table-name">
+                                        <div class="status-duty">
+                                            <p class="status onduty white text-status">ON DUTY</p>
+                                            <p class="status-duty-icon"> <span style="margin-right: 10px">ELD</span> <strong class="icon-status driving"></strong></p>
+                                        </div>
+                                    </div>
+                                    <div class="td-driver td-driver-maps content-table-name">
+                                        <p class="location-icon">
+                                            <i class="fa fa-map-marker" aria-hidden="true"></i> 5.2 mi N <span>of</span> Minneapolis,MN
+                                        </p>
+                                        <p class="title-time">2 MIN AGO</p>
+                                    </div>
+                                    <div class="td-driver content-table-name">
+                                        <p class="miles">600mi</p>
+                                    </div>
+                                    <div class="td-driver content-table-name">
+                                        <i class="fa fa-times-circle violation-fa" aria-hidden="true"></i>
+                                        <p class="violation">1 VIOLATION</p>
+                                        <i class="fa fa-check-square fa-check-bottom" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div> 
+                            <div class="table-drive-child table-drive-child-box table-drive-child-bottom">
+                                <div class="tr-driver content-table-driver">
+                                     <div class="td-driver content-table-avatar">
+                                        <!-- <p class="name-avatar">EM</p> -->
+                                         <img src="../images/bg@3x.jpg" alt="logo"> 
+                                    </div>
+                                    <div class="td-driver content-table-name">
+                                        <div class="name-task">
+                                            <p class="name-title-avar">EVAN MAY</p>
+                                            <span>SAM671234</span>
+                                        </div>
+                                    </div>
+                                    <div class="td-driver authorized" colspan="4">
+                                        <p class="text-null-bottom">CURENTLY NOT AUTHORIZED TO USE ELD</p>
+                                    </div>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                    <ul class="pagination">
+                        <li><a class="prev" href="#">Prev</a></li>
+                        <li><a class="active" href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">...</a></li>
+                        <li><a href="#">10</a></li>
+                        <li><a href="#">Next</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog popup-large" role="document">
+            <div class="modal-content popup-content-driver">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <div class="modal-title title-modal-driver" id="myModalLabel"><i class="fa fa-user-plus icon-page" aria-hidden="true"></i><span>   Add A Driver</span></div>
+                </div>
+                <div class="modal-body popup-body-driver">
+                    <p>Add some details about driver and we will send them an invite to create an account in the mobile app.</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group form-modal-drive has-error-driver">
+                                <label class="label-input">FIRST NAME<span>(* REQUIRED)</span></label>
+                                <p class="validate-address-form">This is not a correct email address.</p>
+                                <input type="email" class="form-control" placeholder="Enter the Driver's First Name">
+                            </div>
+                            <div class="form-group form-modal-drive has-error-driver">
+                                <label class="label-input">EMAIL<span>(* REQUIRED)</span></label>
+                                <p class="validate-address-form">This is not a correct email address.</p>
+                                <input type="email" class="form-control" placeholder="Enter the Driver's Email">
+                            </div>
+                            <div class="form-group form-modal-drive has-error-driver">
+                                <label class="label-input">DRIVER'S LICENSE STATE</label>
+                                <p class="validate-address-form">This is not a correct email address.</p>
+                                <select class="form-control">
+                                    <option>Please Select an Option</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group form-modal-drive has-error-driver">
+                                <label class="label-input">LAST NAME <span>(* REQUIRED)</span></label>
+                                <p class="validate-address-form">This is not a correct email address.</p>
+                                <input type="email" class="form-control" placeholder="Enter the Driver's Last Name">
+                            </div>
+                            <div class="form-group form-modal-drive has-error-driver">
+                                <label class="label-input">PHONE NUMBER</label>
+                                <p class="validate-address-form">This is not a correct email address.</p>
+                                <input type="email" class="form-control" placeholder="Phone Number - Area Code First">
+                            </div>
+                            <div class="form-group form-modal-drive has-error-driver">
+                                <label class="label-input">LICENSE NUMBER</label>
+                                <p class="validate-address-form">This is not a correct email address.</p>
+                                <input type="email" class="form-control" placeholder="Enter the driver's License Number">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="icon-status-modal">
+                        <div class="check-everthing alert-danger">
+                            <p><i class="fa fa-minus-circle red icon-alert-danger" aria-hidden="true"></i>  There are some errors. Please correct them and try again.</p>
+                        </div>
+                    </div>
+                </div>
+                <!--<div class="modal-footer">-->
+                    <!--<div class="title-modal-footer">-->
+                        <!--<h4>Device Authorization</h4>-->
+                        <!--<p class="title-authorizing">Authorizing this driver allows them to use their email adddress to connect to a DRIVEeld device.</p>-->
+                    <!--</div>-->
+                    <!--<div class="status-modal-footer">-->
+                        <!--<label class="switch switch-modal status-slider">-->
+                            <!--<input type="checkbox" checked>-->
+                            <!--<span class="slider round"></span>-->
+                        <!--</label>-->
+                        <!--<div class="remaining">-->
+                            <!--<h4>ELD SUBSCRIPTION REMAINING:</h4>-->
+                            <!--<span>0</span>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <div class="modal-footer">
+                    <span class="btn-cancel-driver" data-dismiss="modal">Cancel</span>
+                    <button type="button" href="" class="btn btn-add-driver">ADD THIS DRIVER<span><i class="fa fa-plus-circle" aria-hidden="true"></i></span></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script type="text/javascript" src="../js/jquery-2.2.0.min.js"></script>
+<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+<script type="text/javascript">
+    $('.list-menu-icon').click(function() {
+        $(".sidebar-drive").toggle();
+    });
+</script>

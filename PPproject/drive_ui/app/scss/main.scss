@@ -1,0 +1,23 @@
+//helper
+@import "variable";
+@import "mixin";
+
+@import "index";
+@import "popup";
+// import component
+
+
+*{
+  font-family: 'Open Sans', sans-serif;
+  padding: 0 ;
+  margin: 0;
+}
+p{
+  margin: 0;
+}
+ li {
+   list-style: none;
+ }
+ a {
+   text-decoration: none;
+ }
